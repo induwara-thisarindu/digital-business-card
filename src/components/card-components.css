@@ -1,0 +1,121 @@
+/* Card info */
+
+.card__info__section {
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+}
+
+.card__info__section .card__img img{
+    width: 370px;
+}
+
+.card__info__section .card__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .5rem;
+    margin-top: 20px;
+}
+
+.card__info__section .card__info .info__name {
+    color: #fff;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.card__info__section .card__info .info__role {
+    color: #F3BF99;
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.card__info__section .card__info .info__weblink {
+    color: #F5F5F5;
+    font-size: 15px;
+}
+
+.card__info__section .card__info .info__btns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.primary-btn {
+    background-color: #ffffff;
+    color: #374151;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 35px;
+    gap: .6rem;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.linkedin-btn {
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+
+.email__icon {
+    color: #1E1F26;
+}
+
+/* About & Interests Section */
+
+.about__section {
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.interest__section {
+    padding: 15px 30px;
+}
+
+.section__header {
+    color: #F5F5F5;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section__para {
+    color: #DCDCDC;
+    font-size: 14px;
+    opacity: 0.9;
+    margin-top: 5px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #161619;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 20px;
+}
+
+footer .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 20px;
+}
+
+footer .links button {
+    background-color: #918E9B;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .links button .icon {
+    font-size: 25px;
+}
